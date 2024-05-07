@@ -1,0 +1,149 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?9cd7f324300146157da55d34058bd079") format("truetype"),
+url("./flaticon.woff?9cd7f324300146157da55d34058bd079") format("woff"),
+url("./flaticon.woff2?9cd7f324300146157da55d34058bd079") format("woff2"),
+url("./flaticon.eot?9cd7f324300146157da55d34058bd079#iefix") format("embedded-opentype"),
+url("./flaticon.svg?9cd7f324300146157da55d34058bd079#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "workspace": "\f101",
+    "living-room": "\f102",
+    "staircase": "\f103",
+    "blueprint": "\f104",
+    "home-decoration": "\f105",
+    "decorating": "\f106",
+    "door": "\f107",
+    "stairs": "\f108",
+    "interior-design": "\f109",
+    "wardrobe": "\f10a",
+    "windows": "\f10b",
+    "door-1": "\f10c",
+    "bed": "\f10d",
+    "bed-1": "\f10e",
+    "interior-design-1": "\f10f",
+    "apartment": "\f110",
+    "interior-design-2": "\f111",
+    "french-doors": "\f112",
+    "door-2": "\f113",
+    "architecture-and-city": "\f114",
+    "play-button": "\f115",
+    "call": "\f116",
+    "destination": "\f117",
+    "delivery": "\f118",
+    "navigation": "\f119",
+    "email": "\f11a",
+    "call-1": "\f11b",
+    "wall-clock": "\f11c",
+    "clock": "\f11d",
+    "clock-1": "\f11e",
+    "work-done": "\f11f",
+);
+
+.flaticon-workspace:before {
+    content: map-get($flaticon-map, "workspace");
+}
+.flaticon-living-room:before {
+    content: map-get($flaticon-map, "living-room");
+}
+.flaticon-staircase:before {
+    content: map-get($flaticon-map, "staircase");
+}
+.flaticon-blueprint:before {
+    content: map-get($flaticon-map, "blueprint");
+}
+.flaticon-home-decoration:before {
+    content: map-get($flaticon-map, "home-decoration");
+}
+.flaticon-decorating:before {
+    content: map-get($flaticon-map, "decorating");
+}
+.flaticon-door:before {
+    content: map-get($flaticon-map, "door");
+}
+.flaticon-stairs:before {
+    content: map-get($flaticon-map, "stairs");
+}
+.flaticon-interior-design:before {
+    content: map-get($flaticon-map, "interior-design");
+}
+.flaticon-wardrobe:before {
+    content: map-get($flaticon-map, "wardrobe");
+}
+.flaticon-windows:before {
+    content: map-get($flaticon-map, "windows");
+}
+.flaticon-door-1:before {
+    content: map-get($flaticon-map, "door-1");
+}
+.flaticon-bed:before {
+    content: map-get($flaticon-map, "bed");
+}
+.flaticon-bed-1:before {
+    content: map-get($flaticon-map, "bed-1");
+}
+.flaticon-interior-design-1:before {
+    content: map-get($flaticon-map, "interior-design-1");
+}
+.flaticon-apartment:before {
+    content: map-get($flaticon-map, "apartment");
+}
+.flaticon-interior-design-2:before {
+    content: map-get($flaticon-map, "interior-design-2");
+}
+.flaticon-french-doors:before {
+    content: map-get($flaticon-map, "french-doors");
+}
+.flaticon-door-2:before {
+    content: map-get($flaticon-map, "door-2");
+}
+.flaticon-architecture-and-city:before {
+    content: map-get($flaticon-map, "architecture-and-city");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-destination:before {
+    content: map-get($flaticon-map, "destination");
+}
+.flaticon-delivery:before {
+    content: map-get($flaticon-map, "delivery");
+}
+.flaticon-navigation:before {
+    content: map-get($flaticon-map, "navigation");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-call-1:before {
+    content: map-get($flaticon-map, "call-1");
+}
+.flaticon-wall-clock:before {
+    content: map-get($flaticon-map, "wall-clock");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-clock-1:before {
+    content: map-get($flaticon-map, "clock-1");
+}
+.flaticon-work-done:before {
+    content: map-get($flaticon-map, "work-done");
+}
