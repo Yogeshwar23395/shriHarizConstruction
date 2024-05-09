@@ -559,66 +559,8 @@ jQuery(document).ready(function () {
   });
 });
 
-//  document.addEventListener('DOMContentLoaded', function() {
-//     document.getElementById('contact_form').addEventListener('submit', function(e) {
-//         e.preventDefault(); // Prevent form submission
 
-//         // Perform form validation
-//         var name = document.getElementsByName('name')[0].value.trim();
-//         var email = document.getElementsByName('email')[0].value.trim();
-//         var phone = document.getElementsByName('phone')[0].value.trim();
-//         var subject = document.getElementsByName('subject')[0].value.trim();
-//         var address = document.getElementsByName('address')[0].value.trim();
-//         var pincode = document.getElementsByName('pincode')[0].value.trim();
-//         var message = document.getElementsByName('message')[0].value.trim();
 
-//         if (name === '' || email === '' || phone === '' || subject === '' || address === '' || pincode === '' || message === '') {
-//             // Show error message using Toastify
-//             Toastify({
-//                 text: "Please fill in all fields.",
-//                 duration: 3000,
-//                 gravity: "bottom", // Display at the top
-//                 position: "right", // Align to the left
-//                 backgroundColor: "linear-gradient(to right, #ff416c, #ff4b2b)",
-//             }).showToast();
-//             return;
-//         }
-
-//         // Perform additional validations if needed (e.g., email format)
-
-//         // If all fields are filled and validated, you can send the form data to the backend using Fetch API
-//         fetch('http://192.168.1.5:8082/api/save', {
-//             method: 'POST',
-//             body: new FormData(document.getElementById('contact_form')),
-//         })
-//         .then(function(response) {
-//             if (response.ok) {
-//                 // Handle success response
-//                 // Show success message using Toastify
-//                 Toastify({
-//                     text: "Message sent successfully!",
-//                     duration: 3000,
-//                     gravity: "bottom", // Display at the top
-//                     position: "right", // Align to the left
-//                     backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
-//                 }).showToast();
-//             } else {
-//                 // Handle error response
-//                 // Show error message using Toastify
-//                 Toastify({
-//                     text: "Error sending message. Please try again later.",
-//                     duration: 3000,
-//                     gravity: "bottom", // Display at the top
-//                     position: "right", // Align to the left
-//                     backgroundColor: "linear-gradient(to right, #ff416c, #ff4b2b)",
-//                 }).showToast();
-//             }
-//         })
-//         .catch(function(error) {
-//             console.error('Error:', error);
-//         });
-//     });
-// });
 
 function submitFrom() {
   var name = document.getElementsByName("name")[0].value.trim();
