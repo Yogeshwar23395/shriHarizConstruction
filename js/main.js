@@ -694,3 +694,16 @@ function displaySuccessMessage(Message) {
                             backgroundColor: "linear-gradient(to right, #ff416c, #ff4b2b)",
                         }).showToast();
   }
+
+
+
+
+  $(document).ready(function () {
+    $('.prev-btn').click(function () {
+        $('.slick_slider').slick('slickPrev');
+    });
+
+    $('.next-btn').click(function () {
+        $('.slick_slider').slick('slickNext');
+    });
+});

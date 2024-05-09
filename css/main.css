@@ -105,6 +105,25 @@
     color: #fff;
     font-weight: 500;
 }
+
+.prev-btn{
+    background-color: rgba(24, 24, 24, .45);
+    -webkit-box-shadow: 0 2px 14px 0 rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 14px 0 rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    padding: 12px 19px;
+}
+.next-btn{
+    background-color: rgba(24, 24, 24, .45);
+    -webkit-box-shadow: 0 2px 14px 0 rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 14px 0 rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    padding: 12px 19px;
+}
+
+
  
  
 /* ===============================================
